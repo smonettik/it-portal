@@ -1,0 +1,40 @@
+site_name: 'База знаний IT-отдела "Энергия"'
+site_description: Портал инструкций по обслуживанию печатающей техники
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Главная: index.md
+  - Учёт техники:
+      - Регистрация устройства: inventory/registration.md
+      - Пример инвентарной карточки: inventory/example.md
+  - Обслуживание:
+      - Снятие показаний счётчиков: maintenance/counters.md
+      - Замена картриджа: maintenance/supplies.md
+  - Системное администрирование:
+      - Тихая установка MSI: admin/msi-install.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.superfences
