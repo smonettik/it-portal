@@ -32,8 +32,19 @@ nav:
   - Обслуживание:
       - Снятие показаний счётчиков: maintenance/counters.md
       - Замена картриджа: maintenance/supplies.md
+  - Принтеры:
+      - Обслуживание принтеров: printers/maintenance.md
+      - Замятие бумаги: printers/paper-jam.md
+      - Замена картриджа HP: printers/hp-cartridge.md
+      - Замена картриджа Canon: printers/canon-cartridge.md
   - Системное администрирование:
       - Тихая установка MSI: admin/msi-install.md
+      - Групповые политики: admin/group-policy.md
+      - Развёртывание ПО: admin/software-deploy.md
+      - Агент GLPI (инвентаризация): admin/glpi-agent.md
+      - Агент SCCM: admin/sccm-agent.md
+      - Такском: мастер настройки рабочего места: admin/taxcom-master.md
+      - Шифрование почты (JaCarta): admin/outlook-jacarta.md
 
 markdown_extensions:
   - admonition
