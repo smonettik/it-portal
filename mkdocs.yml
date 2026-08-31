@@ -43,7 +43,7 @@ nav:
       - Развёртывание ПО: admin/software-deploy.md
       - Агент GLPI (инвентаризация): admin/glpi-agent.md
       - Агент SCCM: admin/sccm-agent.md
-      - Такском: мастер настройки рабочего места: admin/taxcom-master.md
+      - Такском — мастер настройки рабочего места: admin/taxcom-master.md
       - Шифрование почты (JaCarta): admin/outlook-jacarta.md
 
 markdown_extensions:
